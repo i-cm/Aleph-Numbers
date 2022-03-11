@@ -18,5 +18,5 @@ function add() {
 }
 
 function render() {
-  document.getElementById('num')=player.Numbers
+  document.getElementById('num').textContent=player.Numbers
 }
