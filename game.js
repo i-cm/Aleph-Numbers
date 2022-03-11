@@ -21,10 +21,12 @@ function add() {
 }
 
 function infinity() {
-  player.Numbers=0
-  player.Infinity.amount+=1
-  player.Infinity.unlocked=true
-  render()
+  if (Math.log(player.Numbers)>=1) {
+    player.Infinity.amount+=Math.log(player.numbers)
+    player.Numbers=0
+    player.Infinity.unlocked=true
+    render()
+  }
 }
 
 function render() {
