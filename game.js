@@ -33,6 +33,8 @@ function render() {
   document.getElementById('num')=number(player.Numbers)
 }
 
-catch(e) {
-  alert(e)
+function check() {
+  catch(e) {
+    alert(e)
+  }
 }
