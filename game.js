@@ -2,9 +2,9 @@ player={lastTick:0,
         Numbers:0,
         Infinity:{amount:0,
                   unlocked:false},
-        Version:{MajorUpdate:0,
-                 MinorUpdate:0,
-                 VeryMinorUpdate:0}
+        Version:{MajorUpdate:0, // new prestige layer
+                 MinorUpdate:0, // new features/subtab within a prestige layer
+                 VeryMinorUpdate:0} // bug fixes
 }
 
 function show(x) {
