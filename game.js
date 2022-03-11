@@ -7,9 +7,12 @@ player={lastTick:0,
                             c3:{u1:false,u2:false,u3:false,u4:false},
                             c4:{u1:false,u2:false,u3:false,u4:false},
                             MetaUpgrades:{u1:false,u2:false,u3:false,u4:false}}},
-        Version:{MajorUpdate:0, // new prestige layer
-                 MinorUpdate:0, // new features/subtab within a prestige layer
-                 VeryMinorUpdate:0} // bug fixes
+        Version:{MajorUpdate:1, // new prestige layer
+                 MinorUpdate:1, // new features/subtab within a prestige layer
+                 VeryMinorUpdate:0, // bug fixes
+                 Preversion:true},
+        Beta:{Major:0,Minor:0},
+        Snapshot:{Major:0,Minor:{Major:"?????",Minor:0}}
 }
 
 function show(x) {
@@ -51,7 +54,7 @@ var forv = window.setInterval(function() {
   render()
 }, 50)
 
-function buyUpgrade(c, u, cost) {
+function buyUpgrade(c, u, cost) { // whoops I made this game unplayable
   if (player.Infinity.amount>=cost) {
     player.Infinity.amount-=cost
     if (c==1) {
