@@ -32,6 +32,7 @@ function infinity() {
 function render() {
   document.getElementById('num').textContent=player.Numbers
   document.getElementById('inf').textContent=player.Infinity.amount
+  document.getElementById('infgain').textContent=player.Numbers/10
   if (player.Infinity.unlocked) {
     show('infunlockable')
   } else {
