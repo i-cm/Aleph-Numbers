@@ -12,23 +12,11 @@ function hide(x) {
   document.getElementById(elementID).style.display='none'
 }
 
-function number(x) {
-  if (x==1/0 or x==-1/0) {
-    return 'Infinity'
-  } else if (x===undefined) {
-    return '?'
-  } else if (x===null) {
-    return
-  } else {
-    return floor(x)
-  }
-}
-
 function add() {
   player.Numbers+=1
   render()
 }
 
 function render() {
-  document.getElementById('num')=number(player.Numbers)
+  document.getElementById('num')=player.Numbers
 }
