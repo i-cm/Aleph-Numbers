@@ -32,3 +32,7 @@ function add() {
 function render() {
   document.getElementById('num')=number(player.Numbers)
 }
+
+catch(e) {
+  alert(e)
+}
