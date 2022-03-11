@@ -40,3 +40,7 @@ function render() {
 }
 
 render()
+
+var forv = window.setInterval(function() {
+  render()
+}, 50)
