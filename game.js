@@ -9,7 +9,7 @@ player={lastTick:0,
                             MetaUpgrades:{u1:false,u2:false,u3:false,u4:false}}},
         Version:{MajorUpdate:1, // new prestige layer
                  MinorUpdate:1, // new features/subtab within a prestige layer
-                 VeryMinorUpdate:0, // bug fixes
+                 VeryMinorUpdate:1, // bug fixes
                  Preversion:true},
         Beta:{Major:0,Minor:0},
         Snapshot:{Major:0,Minor:{Major:"?????",Minor:0}}
