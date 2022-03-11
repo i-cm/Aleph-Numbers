@@ -22,7 +22,7 @@ function add() {
 
 function infinity() {
   if (Math.log(player.Numbers)>=1) {
-    player.Infinity.amount+=Math.log(player.numbers)
+    player.Infinity.amount+=Math.log(player.Numbers)
     player.Numbers=0
     player.Infinity.unlocked=true
     render()
