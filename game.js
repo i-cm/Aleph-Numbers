@@ -1,7 +1,10 @@
 player={lastTick:0,
         Numbers:0,
-        Infinity:{amount:0,unlocked:0},
-        Version:{MajorUpdate:0,MinorUpdate:0,VeryMinorUpdate:0}
+        Infinity:{amount:0,
+                  unlocked:0},
+        Version:{MajorUpdate:0,
+                 MinorUpdate:0,
+                 VeryMinorUpdate:0}
 }
 
 function show(x) {
