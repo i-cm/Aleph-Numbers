@@ -5,11 +5,11 @@ player={lastTick:0,
 }
 
 function show(x) {
-  document.getElementById(elementID).style.display='block'
+  document.getElementById(x).style.display='block'
 }
 
 function hide(x) {
-  document.getElementById(elementID).style.display='none'
+  document.getElementById(x).style.display='none'
 }
 
 function add() {
@@ -20,3 +20,5 @@ function add() {
 function render() {
   document.getElementById('num').textContent=player.Numbers
 }
+
+render()
