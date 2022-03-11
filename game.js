@@ -1,6 +1,7 @@
 player={lastTick:0,
         Numbers:0,
-        Infinity:{amount:0, unlocked:0}
+        Infinity:{amount:0,unlocked:0},
+        Version:{MajorUpdate:0,MinorUpdate:0,VeryMinorUpdate:0}
 }
 
 function show(x) {
@@ -12,7 +13,7 @@ function hide(x) {
 }
 
 function number(x) {
-  if (x==1/0) {
+  if (x==1/0 or x==-1/0) {
     return 'Infinity'
   } else if (x===undefined) {
     return '?'
@@ -29,5 +30,5 @@ function add() {
 }
 
 function render() {
-  
+  document.getElementById('num')=player.number
 }
