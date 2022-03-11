@@ -25,10 +25,10 @@ function number(x) {
 }
 
 function add() {
-  player.number+=1
+  player.Numbers+=1
   render()
 }
 
 function render() {
-  document.getElementById('num')=player.number
+  document.getElementById('num')=number(player.Numbers)
 }
