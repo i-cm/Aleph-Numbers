@@ -21,8 +21,8 @@ function add() {
 }
 
 function infinity() {
-  if (Math.log(player.Numbers)>=1) {
-    player.Infinity.amount+=Math.log(player.Numbers)
+  if (player.Numbers>=10) {
+    player.Infinity.amount+=player.Numbers/10
     player.Numbers=0
     player.Infinity.unlocked=true
     render()
